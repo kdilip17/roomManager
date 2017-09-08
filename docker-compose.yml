@@ -1,0 +1,6 @@
+room_local1:
+  image: room/local:v1
+  ports:
+    - 9003:9003
+  command: "node index.js"
+  container_name: room_local1
